@@ -7,6 +7,7 @@
 //
 
 #import "DDTViewController.h"
+#import <DDTAssertLogManager.h>
 
 @interface DDTViewController ()
 
@@ -17,13 +18,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    [DDTAssertLogManager sharedInstance].identifier = @"DDT2";
+    
+    [self testParameterAssert:nil];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)testParameterAssert:(NSString *)shouldntBeNil
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    DDTParameterAssertLog(shouldntBeNil, @"Whats gone on here");
+    
+    DDTAssertLog(0, @"normal assert");
 }
-
 @end
