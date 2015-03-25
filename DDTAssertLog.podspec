@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DDTAssertLog"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "Release logging of assertions."
   s.description      = <<-DESC
                        Find what assertions are firing with your release code.
