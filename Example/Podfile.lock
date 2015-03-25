@@ -1,0 +1,14 @@
+PODS:
+  - DDTAssertLog (0.1.0)
+
+DEPENDENCIES:
+  - DDTAssertLog (from `../`)
+
+EXTERNAL SOURCES:
+  DDTAssertLog:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DDTAssertLog: 2e11561b38f21832c24fe1681e7ae7ba313e58f8
+
+COCOAPODS: 0.35.0
