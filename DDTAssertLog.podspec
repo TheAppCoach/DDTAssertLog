@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        Find what assertions are firing with your release code.
 			           DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DDTAssertLog"
+  s.homepage         = "https://github.com/TheAppCoach/DDTAssertLog"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "mcBontempi" => "mcbontempi@gmail.com" }
